@@ -1,0 +1,57 @@
+@font-face {
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("/NanumSquareL.woff2") format("woff2");
+}
+@font-face {
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/NanumSquareR.woff2") format("woff2");
+}
+@font-face {
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/NanumSquareB.woff2") format("woff2");
+}
+@font-face {
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("/NanumSquareEB.woff2") format("woff2");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+// body {
+//   overflow-x: hidden;
+// }
+
+p,
+ul,
+label,
+a,
+button,
+input,
+textarea,
+table {
+  font-family: NanumSquare;
+}
+
+a {
+  text-decoration: none;
+}
+
+img,
+svg {
+  vertical-align: bottom;
+}
