@@ -18,13 +18,6 @@ const light = new THREE.DirectionalLight(0xffffff, 1);
 light.position.set(1, 1, 1);
 scene.add(light);
 
-const planeGeometry = new THREE.PlaneGeometry(30, 30, 1, 1);
-const planeMaterial = new THREE.MeshStandardMaterial({ color: 0x555555 });
-const plane = new THREE.Mesh(planeGeometry, planeMaterial);
-plane.rotation.set(-0.5 * Math.PI, 0, 0);
-plane.position.set(0, -0.5, 0);
-scene.add(plane);
-
 function animate() {
   camera.updateMatrixWorld();
   renderer.render(scene, camera);
